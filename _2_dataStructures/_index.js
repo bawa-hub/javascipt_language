@@ -6,4 +6,6 @@
 // The size of a primitive value is fixed, therefore, JavaScript stores the primitive value on the stack.
 // On the other hand, the size of a reference value is dynamic so JavaScript stores the reference value on the heap
 
-// https://www.javascripttutorial.net/javascript-primitive-vs-reference-values/ for more
+// useful links
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures
+// https://www.javascripttutorial.net/javascript-primitive-vs-reference-values/
