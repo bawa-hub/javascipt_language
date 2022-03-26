@@ -1,1 +1,1 @@
-# learnin basics from javascripttutorial.net
+# learnin object and prototypes from javascripttutorial.net

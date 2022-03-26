@@ -2,7 +2,7 @@
 // key of a property can be a string and the value of a property can be any valid JavaScript value e.g., a string, a number, an array, and even a function.
 // When a function is a property of of an object, it’s often called a method
 
-// There are many ways to create objects in javascript as below
+/*******There are many ways to create objects in javascript as below*********/
 
 // Object constructor:
 // The simplest way to create an empty object is using the Object constructor. Currently this approach is not recommended.
