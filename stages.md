@@ -1,6 +1,11 @@
+# Stage 0:
+
+-- javascript runtime and memory management (execution context, call stack, event loop)
+-- variable scope
+-- hoisting
+
 # Stage 1:
 
--- javascript runtime
 -- statements and declarations
 -- operators and expressions
 -- data structures in js

@@ -1,6 +1,6 @@
 // In JavaScript, a variable may store two types of values: primitive and reference
 // JavaScript provides seven primitive types as
-// undefined, null, boolean, number,BigInt string, and symbol ,
+// boolean,number,BigInt,string,undefined,null,symbol
 
 // and a reference type object.
 // The size of a primitive value is fixed, therefore, JavaScript stores the primitive value on the stack.
@@ -45,7 +45,7 @@ console.log("a" / 2); // NaN;
 console.log(NaN / 2); // NaN
 console.log(NaN == NaN); // false
 
-// f you want to single quote or double quotes in a literal string, you need to use the backslash to escape it
+// ef you want to single quote or double quotes in a literal string, you need to use the backslash to escape it
 let message = "I'm also a valid string"; // use \ to escape the single quote (')
 console.log(message);
 
@@ -82,6 +82,7 @@ console.log(Symbol() == Symbol()); // false
 let pageView = 9007199254740991n;
 console.log(typeof pageView); // 'bigint'
 
+// object
 let contact = {
   firstName: "John",
   lastName: "Doe",
@@ -96,7 +97,6 @@ let contact = {
   },
 };
 // To access a object’s property, you can use
-
 //     The dot notation (.)
 //     The array-like notation ([]).
 console.log(contact.firstName); // John
