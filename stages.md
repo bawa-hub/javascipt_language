@@ -1,27 +1,29 @@
-# Stage 0:
+# Part 1:
 
 -- javascript runtime and memory management (execution context, call stack, event loop)
+-- asynchronous programming
 -- variable scope
 -- hoisting
 
-# Stage 1:
+# Part 2:
 
 -- statements and declarations
 -- operators and expressions
 -- data structures in js
+
+# Part 3:
+
+-- objects, prototypes and inheritance, oops
 -- built in objects
--- functions
-
-# Stage 2:
-
--- prototypes and inheritance
--- oops
 -- exception handling
--- asynchronous
+
+# Part 4:
+
+-- functional programming
+
+# Part 5:
+
 -- generators and iterators
-
-# Stage 3:
-
 -- modules
 -- meta programming
 
