@@ -1,3 +1,5 @@
+// https://www.javascripttutorial.net/javascript-prototypal-inheritance/
+
 // The property [[Prototype]] is internal and hidden, but there are many ways to set it.
 // One of them is to use the special name __proto__, like this:
 let animal = {
