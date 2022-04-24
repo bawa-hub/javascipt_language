@@ -4,7 +4,8 @@
 // and return them from other functions as values.
 
 // Storing functions in variables
-// Functions are the first-class citizens in JavaScript. In other words, you can treat functions like values of other types
+// Functions are the first-class citizens in JavaScript.
+// In other words, you can treat functions like values of other types
 function add(a, b) {
   return a + b;
 }

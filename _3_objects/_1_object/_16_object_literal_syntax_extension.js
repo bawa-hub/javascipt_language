@@ -8,6 +8,7 @@ function createMachine(name, status) {
 }
 
 // in ES6
+// short-hand representatin, when property and value name is same
 function createMachine(name, status) {
   return {
     name,
