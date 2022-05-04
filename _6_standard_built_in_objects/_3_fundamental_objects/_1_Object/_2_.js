@@ -1,5 +1,7 @@
-// Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs. This is the same as iterating with a for...in loop, except that a for...in loop enumerates properties in the prototype chain as well).
-// The order of the array returned by Object.entries() is the same as that provided by a for...in loop. If there is a need for different ordering, then the array should be sorted first, like Object.entries(obj).sort((a, b) => b[0].localeCompare(a[0]));.
+// Object.entries() method returns an array of a given object's own enumerable string-keyed property [key, value] pairs.
+// This is the same as iterating with a for...in loop, except that a for...in loop enumerates properties in the prototype chain as well).
+// The order of the array returned by Object.entries() is the same as that provided by a for...in loop.
+// If there is a need for different ordering, then the array should be sorted first, like Object.entries(obj).sort((a, b) => b[0].localeCompare(a[0]));.
 const object1 = {
   a: "somestring",
   b: 42,
@@ -11,7 +13,8 @@ for (const [key, value] of Object.entries(object1)) {
 // "a: somestring"
 // "b: 42"
 
-// Object.freeze() method freezes an object. A frozen object can no longer be changed; freezing an object prevents new properties from being added to it, existing properties from being removed, prevents changing the enumerability, configurability, or writability of existing properties, and prevents the values of existing properties from being changed. In addition, freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in.
+// Object.freeze() method freezes an object. A frozen object can no longer be changed;
+// freezing an object prevents new properties from being added to it, existing properties from being removed, prevents changing the enumerability, configurability, or writability of existing properties, and prevents the values of existing properties from being changed. In addition, freezing an object also prevents its prototype from being changed. freeze() returns the same object that was passed in.
 const obj = {
   prop: 42,
 };

@@ -1,4 +1,6 @@
-// Object.seal() method seals an object, preventing new properties from being added to it and marking all existing properties as non-configurable. Values of present properties can still be changed as long as they are writable.
+// Object.seal() method seals an object, preventing new properties from being added to it and
+// marking all existing properties as non-configurable.
+// Values of present properties can still be changed as long as they are writable.
 const object1 = {
   property1: 42,
 };
@@ -35,7 +37,9 @@ const object1 = new MyNumberType(4);
 console.log(object1 + 3);
 // expected output: 7
 
-// Object.values() method returns an array of a given object's own enumerable property values, in the same order as that provided by a for...in loop. (The only difference is that a for...in loop enumerates properties in the prototype chain as well.)
+// Object.values() method returns an array of a given object's own enumerable property values,
+// in the same order as that provided by a for...in loop.
+// (The only difference is that a for...in loop enumerates properties in the prototype chain as well.)
 const object1 = {
   a: "somestring",
   b: 42,

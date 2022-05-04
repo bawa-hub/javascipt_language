@@ -1,31 +1,35 @@
-# Part 1:
+# Part 1 [MON]:
 
 -- javascript runtime and memory management (execution context, call stack, event loop)
 -- asynchronous programming
 -- variable scope
 -- hoisting
 
-# Part 2:
+# Part 2 [TUE]:
 
 -- statements and declarations
 -- operators and expressions
 -- data structures in js
 
-# Part 3:
+# Part 3 [WED]:
 
 -- objects, prototypes and inheritance, oops
 -- built in objects
 -- exception handling
 
-# Part 4:
+# Part 4 [THU]:
 
 -- functional programming
 
-# Part 5:
+# Part 5 [FRI]:
 
 -- generators and iterators
 -- modules
 -- meta programming
+
+# Part 6 [SAT,SUN]
+
+-- explore and practice
 
 # usefulLinks:
 
